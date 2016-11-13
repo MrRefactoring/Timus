@@ -1,4 +1,13 @@
 # Timus on Python:
 Timus problems python
 # Solved problems:
-●2023
+● 1000
+● 1001
+● 1014
+● 1290
+● 1293
+● 1296
+● 1573
+● 1785
+● 2023
+● 2095
