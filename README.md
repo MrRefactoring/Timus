@@ -9,6 +9,7 @@ Timus problems python
 ● 1290
 ● 1293
 ● 1296
+● 1409
 ● 1493
 ● 1545
 ● 1567
@@ -18,5 +19,4 @@ Timus problems python
 ● 2023
 ● 2066
 ● 2095
-
 ● 2100
