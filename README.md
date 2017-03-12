@@ -1,5 +1,5 @@
 # Timus on Python:
-Timus problems python
+Timus problems on python
 # Solved problems:
 ● 1000
 ● 1001
@@ -17,12 +17,14 @@ Timus problems python
 ● 1567
 ● 1573
 ● 1612
+● 1639
 ● 1785
 ● 1787
 ● 1820
 ● 1877
 ● 1880
 ● 1910
+● 1924
 ● 1993
 ● 2001
 ● 2012
