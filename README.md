@@ -1,5 +1,6 @@
-# Timus on Python:
-Timus solutions on python
+# ACM Timus:
+Solutions for acm.timus.ru<br>
+On Java and Python
 # Python Solutions:
 ● 1000
 ● 1001
