@@ -1,6 +1,6 @@
 # Timus on Python:
-Timus problems on python
-# Solved problems:
+Timus solutions on python
+# Python Solutions:
 ● 1000
 ● 1001
 ● 1014
@@ -35,3 +35,5 @@ Timus problems on python
 ● 2066
 ● 2095
 ● 2100
+# Java Solutions:
+● 1313
