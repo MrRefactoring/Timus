@@ -1,0 +1,70 @@
+use std::io::{stdin};
+
+fn read_int() -> u32{
+    let mut input: String = String::new();
+    stdin().read_line(&mut input).expect("input error");
+    return input.trim().parse().expect("type error");
+}
+
+fn main() {
+
+    let mut number = read_int();
+
+    if number == 1{
+        println!("1");
+        std::process::exit(0)
+    } else if number == 0 {
+        println!("10");
+        std::process::exit(0)
+    }
+
+    let mut answer: String = String::new();
+
+    while number % 9 == 0{
+        answer.push_str("9");
+        number /= 9;
+    }
+
+    while number % 8 == 0{
+        answer.push_str("8");
+        number /= 8;
+    }
+
+    while number % 7 == 0{
+        answer.push_str("7");
+        number /= 7;
+    }
+
+    while number % 6 == 0{
+        answer.push_str("6");
+        number /= 6;
+    }
+
+    while number % 5 == 0{
+        answer.push_str("5");
+        number /= 5;
+    }
+
+    while number % 4 == 0{
+        answer.push_str("4");
+        number /= 4;
+    }
+
+    while number % 3 == 0{
+        answer.push_str("3");
+        number /= 3;
+    }
+
+    while number % 2 == 0{
+        answer.push_str("2");
+        number /= 2;
+    }
+
+    if number != 1{
+        println!("{}", -1);
+    } else {
+        let console: String = answer.chars().rev().into_iter().collect();
+        println!("{}", console);
+    }
+
+}
